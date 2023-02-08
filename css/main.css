@@ -1,0 +1,137 @@
+/*GENERAL SETTINGS*/
+  body {
+    font-size: 15px;
+    text-align: center;
+    font-family: "Poppins";
+    background-color: hsl(0deg, 0%, 98%);
+    color: hsl(234deg, 12%, 34%);
+  }
+
+  .row {
+    --bs-gutter-x:0;
+  }
+
+  p {
+    color: hsl(229deg, 6%, 66%);
+  }
+
+/*TITLE SECTION*/
+  .title2, h5 {
+    font-weight: 600;
+  }
+
+  .title1, .title2, .title-container, .container-main {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .title1 {
+    font-weight: 200;
+  }
+
+  .title2 {
+    margin: 2% auto;
+  }
+
+  .title-desc {
+    font-size: 1.05rem;
+    margin: 2% auto;
+  }
+
+/*FEATURE CARDS*/
+  .container {
+    background-color: white;
+    padding: 8% 8% 10%;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: -1px 15px 20px 0px rgba(0, 0, 0, 0.247);
+  }
+
+  .title, .desc {
+    text-align: left;
+  }
+
+  .image {
+    justify-content: right;
+  }
+
+  .supervisor, .team-builder, .karma, .calculator {
+    border-top: 4px solid;
+  }
+
+  .supervisor {
+    border-color: hsl(180deg, 62%, 55%);
+  }
+
+  .team-builder {
+    border-color: hsl(0deg, 78%, 62%);
+  }
+
+  .karma {
+    border-color: hsl(34deg, 97%, 64%);
+  }
+
+  .calculator {
+    border-color: hsl(212deg, 86%, 64%);
+  }
+
+/*SETTINGS FOR SMALLER DEVICES*/
+  @media (max-width: 992px) {
+    .title-container {
+      width: 80%;
+      margin: 15% auto 0;
+    }
+    h1 {
+      font-size: 1.8rem;
+    }
+    .title2 {
+      margin-bottom: 5%;
+    }
+    .title-desc {
+      font-size: 1.05rem;
+      width: 90%;
+    }
+    .container {
+      width: 75%;
+    }
+    .icon-img {
+      width: 25%;
+    }
+    .supervisor {
+      margin: 15% auto 8%;
+    }
+    .team-builder, .karma {
+      margin-bottom: 8%;
+    }
+    .calculator {
+      margin-bottom: 15%;
+    }
+  }
+
+/*SETTINGS FOR LARGER DEVICES*/
+  @media (min-width: 993px) {
+    .title-container {
+      padding: 3% 0;
+    }
+    .title-desc {
+      width: 60%;
+    }
+    .container {
+      width: 80%;
+    }
+    .icon-img {
+      width: 25%;
+    }
+    .supervisor {
+      margin-top: 25%;
+      margin-right: 1%;
+    }
+    .karma {
+      margin-top: 5%;
+    }
+    .calculator {
+      margin-top: 25%;
+      margin-left: 1%;
+    }
+  }/*# sourceMappingURL=main.css.map */
